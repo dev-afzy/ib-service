@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "slr67-phase-one",
+  "private_key_id": "cd73fc3d307da968ae5219fbe2be7a828149f07a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDOVRwiK/O7E+62\nyqkTfCvmzx0BhLstIGaxH/RaavV7ZT0Q2FHHHKGAjwegKntFm/VwCk7ROFhlzg8p\n0Q/GKVekfFYaVI4lIZp1CplvK9ZBHfe+frn8QDX+zGjpQ/YtSm+VJJuU/tX1MVP4\nGFhZiY86Wlj9LUT9X9iptwpJTp0wWGjY2F5/9l/fS69rM77+XY10iPwu4ND+XOyq\nvzgFR+6hjn3rMstR1We2ROOpQlYW6JiDLwI4/Ytki3HF+oJVQhSQYdCapV5gIB2l\nkuxsbwZeaOJO69s+qOSIjwc9HwwDPFPk/r8qku0UG+8kfM4e0pqbrkZQF8fJv+ks\nGh+ZPnz3AgMBAAECggEAVlCUbFcmpuQ3wJAXGuefFfcekzwLcV1UmFRdzFViTDSV\nzy4vR7Rae4VaE06yMvSDQFOPlUaU9EG3Zi7nAmbZGx5IhstIi4/7JWtBtJgKEUOQ\nGEi7VSMnc2ffm3WqzleNRj8CNtpEd0Yjcm38x7gcCrUw9PizG6u034qK6w/QAiC5\nJTY+n73spkbIviPj05q63EtHuCp007LRhgoiTaynpwbV+dtqzoSwv77P/G8bpWIL\ngnrpsWxhD06Oc8cRFxL0Miblg9ToBLxOEtiPi8Lx5JUzkb0Vwi/2eZXSFmzsVU0F\naHvrmrgYVGX5W1oDMwnSRUoAiD9xf8GakYBifWKdAQKBgQD31nzbRWDtxj6mrWsR\nKM5cUt+5oUldsyiq8Gzt5DCS1XgW5YIVc3uBvXAMzWOZZWRzS7IG68lAF+Ls4cuT\nKuQbx5lqq1ZjoigCzO+f6S64D5jFrbCUIBxbEZ4SmbJr2cdfG6JdwTZx/Q3aAyi5\nAdIkC4I9xdJqwGoNyVT3EF4ZxwKBgQDVILEVgxNs1F5kgLXC55Njto60JBf2yNq3\nX6zS6I1pNYEtkh1ub7lMWHPhSWPadQevciSlbgQWwBMjYoaWcCy2oFc6u3GHr/Ww\nLmhDSLy0baxBBOBfGujvkPjD0axk+mH09ZJGwYxpC5Eg/skAv1rNOXqjmSL8FQjR\nki16bX0DUQKBgESo2zYz5kJ5JWovqPW8BE93dhuLHzQiKiYRLVxKV1qWYQqW0o72\ny0SKIrypOeqJOGbolY1tTPfAplFRzIAc5cz8Yvg2N1yq08LS25/FjffX+k7pa33d\n130zSEOG6PMQBjfHBBhNKrQxkuDO9z0pz/nEZnSOlViVrcvb9vnrQuaJAoGASE4x\nBdVUT8W0yHAKOjeKf3e97kuYfbcizLd+0IbpAtqOGsHJjmAFA2u21KWrZL/zfYhB\n+oXaiUVcuNKCSqN/5+156okROTFvLvhvkvQoYSYcHGrlHB7rC+upGfYWgKOZfBuc\nJrkfQ7wS3pjR5JkG2z026C3Z+p/AQClRmIlwsiECgYEAwbONUI35U60dQDR7edt+\nnz0pUIhq810JEPt7J061hpmCEwuVAHpfufh76d11Gs69FbJ5BRRA6C2CaObd7Y0r\nT9u52gHF+VCxK7VACxlwXt7bIU0BrC0XrfdoyG7tL608HZrlKz4/Uzv9PsDwnjgy\ncyNvaDxnbt9PMlc1k9eU55E=\n-----END PRIVATE KEY-----\n",
+  "client_email": "backup-prod@slr67-phase-one.iam.gserviceaccount.com",
+  "client_id": "106152348748530074578",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/backup-prod%40slr67-phase-one.iam.gserviceaccount.com"
+}
