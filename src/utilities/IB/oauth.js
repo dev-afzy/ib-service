@@ -103,7 +103,7 @@ class IbOauth extends OauthControllers {
       const options = JSON.parse(decrypted);
       options.endPoint = `/portfolio/${account_id}/positions/${page_id}`;
       const data = await this.apiGet(
-        `/portfolio/${account_id}/positions/${page_id}`,
+        options,
         IB_SESSION_KEY.baseUrl
       );
       return data;

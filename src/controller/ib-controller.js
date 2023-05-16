@@ -28,18 +28,5 @@ module.exports = {
     } catch (error) {
       return res.status(400).send({ error });
     }
-  },
-
-  async getPortfolioPositionAPI(req, res, next) {
-    try {
-      console.log('test')
-      const response = await authService.getPortfolioPositionServiceAPI(req.body);
-      if (response) {
-        return res.status(200).send(response);
-      }
-      return res.status(400).send({ data: 'invalid getPortfolio' });
-    } catch (error) {
-      return res.status(400).send({ error });
-    }
-  },
+  }
 };

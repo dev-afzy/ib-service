@@ -21,11 +21,12 @@ class OauthControllers {
 
   async apiGet(endPoint, baseUrlOverride) {
     var options = this.getOptions(endPoint);
+    options.endPoint.key = options.endPoint.liveSessionToken;
     if (baseUrlOverride) {
-      options.url = baseUrlOverride + endPoint;
+      options.endPoint.url = baseUrlOverride + endPoint.endPoint;
     }
     return new Promise((resolve, reject) => {
-      this.sendProtectedResourceRequest(options, 'GET', {})
+      this.sendProtectedResourceRequest(options.endPoint, 'GET', {})
         .then((res) => resolve(res))
         .catch((res) => reject(res));
     });
@@ -33,6 +34,7 @@ class OauthControllers {
 
   async sendProtectedResourceRequest(options, method, body, bodyType) {
     return new Promise((resolve, reject) => {
+      console.log("options===>", options)
       this.oauthRequest(options, 'protectedResource', method, body, bodyType)
         .then((res) => resolve(res))
         .catch((err) => reject(err));
@@ -119,6 +121,7 @@ class OauthControllers {
         },
       });
 
+      console.log('oauth--->', oauth);
       // Override the getSignature function to handle the signature calculation
       oauth.getSignature = function (request_data, key, oauth_data) {
         var buff_key = key;

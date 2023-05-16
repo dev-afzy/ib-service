@@ -36,32 +36,4 @@ module.exports = class IBService {
       return new Error(error);
     }
   }
-
-  async getPortfolioPositionServiceAPI(body) {
-    try {
-      // const response = await ibOauth.getPortfolioDetails(body);
-      // console.log('response===>', response);
-      var config = {
-        method: 'get',
-        maxBodyLength: Infinity,
-        url: 'https://api.ibkr.com/v1/api/portfolio/U7221164/positions/0',
-        headers: {
-          authorization:
-            'OAuth realm="limited_poa", oauth_consumer_key="JAYKPATEL", oauth_nonce="af4DGpcj64tUTggP30JLbjxUN7Epr8os", oauth_signature="TRkrArfxQU7p35RPmoxHtKkohvfdRIePRnQDtSgx4AU%3D", oauth_signature_method="HMAC-SHA256", oauth_timestamp="1683997956", oauth_token="19061359ff8afa41d113"',
-        },
-      };
-
-      const response = await axios(config);
-        // .then(function (response) {
-        //   console.log(JSON.stringify(response.data));
-        //   return response;
-        // })
-        // .catch(function (error) {
-        //   console.log(error);
-        // });
-      return response.data;
-    } catch (error) {
-      return new Error(error);
-    }
-  }
 };
